@@ -1,0 +1,16 @@
+{
+  "name": "cav-js-worker",
+  "version": "1.0.0",
+  "description": "Static analysis worker for JS/TS files",
+  "main": "analysis_worker.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node analysis_worker.js --path ."
+  },
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "@typescript-eslint/typescript-estree": "^7.8.0",
+    "typescript": "^5.4.5"
+  }
+}
